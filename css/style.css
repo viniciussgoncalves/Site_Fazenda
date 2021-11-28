@@ -1,0 +1,44 @@
+.about-farm{
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+    margin-top: 30px;
+    font-family: 'Open Sans';
+    color: #fff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: calc(100vh - 30vh);
+}
+
+
+.black-opacity{
+    position: fixed;
+    width: 100%;
+    height: 120vh;
+    background: rgba(7, 7, 7, 0.849);
+    z-index: -99;
+}
+
+
+@media only screen and (max-width: 1024px) {
+   
+    .main-content{
+        text-align: center;
+    }
+
+    .title{
+        display: block;   
+    }
+
+    .bullets{
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-farm{
+        height: 100%;
+    }
+}
+
